@@ -1,0 +1,44 @@
+@media all and (max-width: 550px){
+
+    .menu {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .open > .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+    .dropdown-menu > li > a {
+        font-size: 20px;
+        border: 1px solid #b2b2b2;
+        margin: 20px 3px;
+    }
+    .nav-tabs > li {
+        float: lnoneeft;
+        margin: 2px 9px !important;
+        width: 100%;
+        text-align: center;
+    }
+    .copyright {
+        text-align: center !important;
+    }
+    .address h4 {
+        text-align: center;
+    }
+    .address p {
+        text-align: center;
+    }
+    .generation {
+        padding: 90px 0;
+    }
+    .generation .container {
+        width: 100% !important;
+    } 
+    .contact .input-group {
+        width: 100%;
+        margin: auto;
+    }
+    
+}

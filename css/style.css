@@ -1,0 +1,425 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Bike shop
+	Template URI: http://www.bike.com
+	Description: ====================.
+	Author: Ayman Alif
+	Author URI: http://www.aymanalif.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------
+
+    1.header area
+    2.intro area
+    3.shop-gallery arae
+        3.1 top
+        3.2 middle
+        3.3 bottom
+    4.tweet area   
+    5.protfolio area 
+    6.discover shop btn
+    7.contact area
+    8.footer area
+
+------------------------------------------------------------------------------------*/
+
+/* 1.header area is here */
+/* 1.header area is here */
+
+.header {
+    background: url("../images/header-bg.png");
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+.menu {
+    width: 509px;
+    margin: auto !important;
+    border-bottom: none;
+}
+.mobile-nav {
+    display: none;
+}
+.mobile-nav a i {
+    font-size: 30px;
+    padding: 20px;
+    color: #000000;
+}
+.menu li:nth-child(1),
+.menu li:nth-child(2),
+.menu li:nth-child(4),
+.menu li:nth-child(5) {
+    margin: 34px 9px;
+}
+.menu li a {
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* 2.intro area is here */
+/* 2.intro area is here */
+
+.intro {
+    text-align: center;
+    padding: 90px 0;
+    background: #f7f7f7;
+}
+.intro h4 {
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.intro p {
+    width: 76%;
+    margin: auto;
+    line-height: 26px;
+    color: #939393;
+}
+
+/* 3. shop-gallery arae is here */
+/* 3. shop-gallery arae is here */
+
+/* 3.1 top */
+/* 3.1 top */
+
+.top-div {
+    overflow: hidden;
+}
+.top-left {
+    height: 504px;
+}
+.top-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top-right {
+    height: 504px;
+}
+.top-right-top {
+    text-align: center;
+    padding: 52px 63px;
+    position: relative;
+}
+
+.top-right-top::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 12px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 1000;
+}
+.top-right-top h4 {
+    padding: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.top-right-top p {
+    letter-spacing: 0px;
+    text-transform: lowercase;
+    color: #c1c1c1;
+    line-height: 23px;
+}
+
+.bottom-right-top {
+    padding: 0;
+}
+.bottom-right-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 3.2 middle */
+/* 3.2 middle */
+
+.middle-div {
+    overflow: hidden;
+}
+.middle-left {
+    height: 504px;
+}
+.middle-left-top {
+    text-align: center;
+    padding: 52.5px 63px;
+    position: relative;
+}
+.middle-left-top::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 12px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 1000;
+}
+.middle-left-top h4 {
+    padding: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.middle-left-top p {
+    letter-spacing: 0px;
+    text-transform: lowercase;
+    color: #c1c1c1;
+    line-height: 23px;
+}
+.middle-left-bottom {
+    padding: 0;
+}
+.middle-left-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.middle-right {
+    height: 504px;
+}
+.middle-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 3.3 bottom */
+/* 3.3 bottom */
+
+.bottom-div {
+    overflow: hidden;
+}
+.bottom-left {
+    height: 504px;
+}
+.bottom-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bottom-middle {
+    height: 504px;
+}
+.bottom-middle-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bottom-right {
+    height: 504px;
+}
+.bottom-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bottom-middle-top {
+    text-align: center;
+    padding: 52.5px 63px;
+    position: relative;
+}
+.bottom-middle-top::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 12px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 1000;
+}
+.bottom-middle-top h4 {
+    padding: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.bottom-middle-top p {
+    letter-spacing: 0px;
+    text-transform: lowercase;
+    color: #c1c1c1;
+    line-height: 23px;
+}
+.bottom-middle-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 4. tweet area ih here */
+/* 4. tweet area ih here */
+
+.tweet {
+    text-align: center;
+    padding: 90px;
+    background: #f7f7f7;
+}
+.tweet i {
+    color: #56c7ee;
+    font-size: 25px;
+}
+.tweet h4 {
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.tweet p {
+    width: 76%;
+    margin: auto;
+    line-height: 26px;
+    color: #939393;
+}
+
+/* 5. protfolio area is here */
+/* 5. protfolio area is here */
+
+.left {
+    overflow: hidden;
+}
+.middle {
+    overflow: hidden;
+}
+.right {
+    overflow: hidden;
+}
+.right-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-bottom-left {
+    height: 279px;
+}
+.right-bottom-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-bottom-right {
+    height: 279px;
+}
+.right-bottom-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 6. discover shop btn */
+/* 6. discover shop btn */
+
+.dis-btn {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+    background: #282f35;
+    overflow: hidden;
+}
+.dis-btn a {
+    display: inline-block;
+    padding: 9px 53px;
+    color: #fff;
+    border: 1px solid #6f6f6f;
+}
+
+/* 7. contact area is here */
+/* 7. contact area is here */
+
+.contact {
+    text-align: center;
+    padding: 85px 0;
+    overflow: hidden;
+}
+.contact h4 {
+    padding: 30px;
+    color: rgb(146, 146, 146);
+    font-style: italic;
+}
+.contact .input-group {
+    width: 480px;
+    margin: auto;
+}
+.contact .input-group input {
+    height: 63px;
+    margin: auto;
+    border-radius: 0;
+    border: 1px solid #d9d9d9;
+}
+.contact .input-group .input-group-btn button {
+    height: 63px;
+    margin: auto;
+    border-radius: 0;
+    border: 1px solid #d9d9d9;
+    width: 123px;
+    font-size: 26px;
+    text-transform: uppercase;
+    background: #64c29e;
+}
+
+/* 8 footer area is here */
+/* 8 footer area is here */
+
+.footer {
+    padding: 60px 0;
+    background: #f7f7f7;
+}
+
+.address h4 {
+    color: rgb(93, 93, 93);
+    font-size: 16px;
+}
+
+.address p {
+    color: rgb(93, 93, 93);
+    margin: 0;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon ul li {
+    display: inline-block;
+}
+
+.social-icon ul li a i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.social-icon ul li:nth-child(1) a i {
+    color: #537bbd;
+}
+
+.social-icon ul li:nth-child(2) a i {
+    color: #ff1e69;
+}
+
+.social-icon ul li:nth-child(3) a i {
+    color: #291e8f;
+}
+.copyright {
+    text-align: right;
+}
